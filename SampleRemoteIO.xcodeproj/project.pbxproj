@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09707CFD1748AEA100F5C83E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09707CFC1748AEA100F5C83E /* UIKit.framework */; };
+		09707CFF1748AEA100F5C83E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09707CFE1748AEA100F5C83E /* Foundation.framework */; };
+		09707D011748AEA100F5C83E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09707D001748AEA100F5C83E /* CoreGraphics.framework */; };
+		09707D071748AEA100F5C83E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09707D051748AEA100F5C83E /* InfoPlist.strings */; };
+		09707D091748AEA100F5C83E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09707D081748AEA100F5C83E /* main.m */; };
+		09707D0D1748AEA100F5C83E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09707D0C1748AEA100F5C83E /* AppDelegate.m */; };
+		09707D0F1748AEA100F5C83E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 09707D0E1748AEA100F5C83E /* Default.png */; };
+		09707D111748AEA100F5C83E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09707D101748AEA100F5C83E /* Default@2x.png */; };
+		09707D131748AEA100F5C83E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09707D121748AEA100F5C83E /* Default-568h@2x.png */; };
+		09707D161748AEA100F5C83E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09707D151748AEA100F5C83E /* ViewController.m */; };
+		09707D191748AEA100F5C83E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09707D171748AEA100F5C83E /* ViewController.xib */; };
+		09707D211748AF4800F5C83E /* RemoteOutPut.m in Sources */ = {isa = PBXBuildFile; fileRef = 09707D201748AF4800F5C83E /* RemoteOutPut.m */; };
+		09707D231748B06C00F5C83E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09707D221748B06C00F5C83E /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09707CF91748AEA100F5C83E /* SampleRemoteIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleRemoteIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09707CFC1748AEA100F5C83E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09707CFE1748AEA100F5C83E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09707D001748AEA100F5C83E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09707D041748AEA100F5C83E /* SampleRemoteIO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleRemoteIO-Info.plist"; sourceTree = "<group>"; };
+		09707D061748AEA100F5C83E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09707D081748AEA100F5C83E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09707D0A1748AEA100F5C83E /* SampleRemoteIO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleRemoteIO-Prefix.pch"; sourceTree = "<group>"; };
+		09707D0B1748AEA100F5C83E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09707D0C1748AEA100F5C83E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09707D0E1748AEA100F5C83E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		09707D101748AEA100F5C83E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		09707D121748AEA100F5C83E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		09707D141748AEA100F5C83E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09707D151748AEA100F5C83E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09707D181748AEA100F5C83E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		09707D1F1748AF4800F5C83E /* RemoteOutPut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteOutPut.h; sourceTree = "<group>"; };
+		09707D201748AF4800F5C83E /* RemoteOutPut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteOutPut.m; sourceTree = "<group>"; };
+		09707D221748B06C00F5C83E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09707CF61748AEA100F5C83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09707D231748B06C00F5C83E /* AudioToolbox.framework in Frameworks */,
+				09707CFD1748AEA100F5C83E /* UIKit.framework in Frameworks */,
+				09707CFF1748AEA100F5C83E /* Foundation.framework in Frameworks */,
+				09707D011748AEA100F5C83E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09707CF01748AEA100F5C83E = {
+			isa = PBXGroup;
+			children = (
+				09707D221748B06C00F5C83E /* AudioToolbox.framework */,
+				09707D021748AEA100F5C83E /* SampleRemoteIO */,
+				09707CFB1748AEA100F5C83E /* Frameworks */,
+				09707CFA1748AEA100F5C83E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09707CFA1748AEA100F5C83E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09707CF91748AEA100F5C83E /* SampleRemoteIO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09707CFB1748AEA100F5C83E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09707CFC1748AEA100F5C83E /* UIKit.framework */,
+				09707CFE1748AEA100F5C83E /* Foundation.framework */,
+				09707D001748AEA100F5C83E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09707D021748AEA100F5C83E /* SampleRemoteIO */ = {
+			isa = PBXGroup;
+			children = (
+				09707D0B1748AEA100F5C83E /* AppDelegate.h */,
+				09707D0C1748AEA100F5C83E /* AppDelegate.m */,
+				09707D141748AEA100F5C83E /* ViewController.h */,
+				09707D151748AEA100F5C83E /* ViewController.m */,
+				09707D1F1748AF4800F5C83E /* RemoteOutPut.h */,
+				09707D201748AF4800F5C83E /* RemoteOutPut.m */,
+				09707D171748AEA100F5C83E /* ViewController.xib */,
+				09707D031748AEA100F5C83E /* Supporting Files */,
+			);
+			path = SampleRemoteIO;
+			sourceTree = "<group>";
+		};
+		09707D031748AEA100F5C83E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09707D041748AEA100F5C83E /* SampleRemoteIO-Info.plist */,
+				09707D051748AEA100F5C83E /* InfoPlist.strings */,
+				09707D081748AEA100F5C83E /* main.m */,
+				09707D0A1748AEA100F5C83E /* SampleRemoteIO-Prefix.pch */,
+				09707D0E1748AEA100F5C83E /* Default.png */,
+				09707D101748AEA100F5C83E /* Default@2x.png */,
+				09707D121748AEA100F5C83E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09707CF81748AEA100F5C83E /* SampleRemoteIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09707D1C1748AEA100F5C83E /* Build configuration list for PBXNativeTarget "SampleRemoteIO" */;
+			buildPhases = (
+				09707CF51748AEA100F5C83E /* Sources */,
+				09707CF61748AEA100F5C83E /* Frameworks */,
+				09707CF71748AEA100F5C83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleRemoteIO;
+			productName = SampleRemoteIO;
+			productReference = 09707CF91748AEA100F5C83E /* SampleRemoteIO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09707CF11748AEA100F5C83E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = takeda;
+			};
+			buildConfigurationList = 09707CF41748AEA100F5C83E /* Build configuration list for PBXProject "SampleRemoteIO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09707CF01748AEA100F5C83E;
+			productRefGroup = 09707CFA1748AEA100F5C83E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09707CF81748AEA100F5C83E /* SampleRemoteIO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09707CF71748AEA100F5C83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09707D071748AEA100F5C83E /* InfoPlist.strings in Resources */,
+				09707D0F1748AEA100F5C83E /* Default.png in Resources */,
+				09707D111748AEA100F5C83E /* Default@2x.png in Resources */,
+				09707D131748AEA100F5C83E /* Default-568h@2x.png in Resources */,
+				09707D191748AEA100F5C83E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09707CF51748AEA100F5C83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09707D091748AEA100F5C83E /* main.m in Sources */,
+				09707D0D1748AEA100F5C83E /* AppDelegate.m in Sources */,
+				09707D161748AEA100F5C83E /* ViewController.m in Sources */,
+				09707D211748AF4800F5C83E /* RemoteOutPut.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09707D051748AEA100F5C83E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09707D061748AEA100F5C83E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09707D171748AEA100F5C83E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09707D181748AEA100F5C83E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09707D1A1748AEA100F5C83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09707D1B1748AEA100F5C83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09707D1D1748AEA100F5C83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleRemoteIO/SampleRemoteIO-Prefix.pch";
+				INFOPLIST_FILE = "SampleRemoteIO/SampleRemoteIO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09707D1E1748AEA100F5C83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleRemoteIO/SampleRemoteIO-Prefix.pch";
+				INFOPLIST_FILE = "SampleRemoteIO/SampleRemoteIO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09707CF41748AEA100F5C83E /* Build configuration list for PBXProject "SampleRemoteIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09707D1A1748AEA100F5C83E /* Debug */,
+				09707D1B1748AEA100F5C83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09707D1C1748AEA100F5C83E /* Build configuration list for PBXNativeTarget "SampleRemoteIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09707D1D1748AEA100F5C83E /* Debug */,
+				09707D1E1748AEA100F5C83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09707CF11748AEA100F5C83E /* Project object */;
+}
